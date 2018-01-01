@@ -1,7 +1,4 @@
-# Hash
-Design and implementation of simple hash table in C++
-Version 1.0.0 Uploaded 9/26/17
+# Mesh Check
+Design of an efficient solution to a common string problem where the user is given two strings along with a third string that is potentially a valid "mesh" of the two words. Utilizes top-down dynamic programming to avoid exponential time solution.
 
-hash.cpp is a simple hash table class, which stores "hashItem" data points in a resizeable vector. The hash function relies on bitwise XOR operations for swift and highly randomized return values, resulting in minimal clustering while ensuring low processing times. 
-
-dictionary.cpp implements hash.cpp to read in and store a dictionary of words stored in a text file, and then check that dictionary against a document to return misspelled or not-found words.
+Version 1.0.0 Uploaded 1/1/2018
